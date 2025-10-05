@@ -1,0 +1,175 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 800px;
+}
+.upper-body{
+    height: 80px;
+    width: auto;
+    border: 1px solid;
+    border-color: lightgray;
+}
+.top-logo {
+    position: absolute;
+    top: -30px;
+    left: 50px;
+    height: 160px;
+    width: 200px;
+}
+.top-logo:hover{
+    cursor: pointer;
+}
+
+.sign-in{
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    
+}
+
+.sign-in:hover {
+    cursor: pointer;
+    text-decoration-line: underline;
+
+}
+
+.top-line{
+    position: absolute;
+    top: 50px;
+    height: 2px;
+    background-color: lightgrey;
+}
+.lower-body{
+    align-self: center;
+
+}
+
+.upper-tick{
+    position:absolute;
+    left: 50%;
+    top: 220px;
+
+    height: 25px;
+    width: 25px;
+
+    padding: 10px;
+
+    border: 3px solid red;
+
+    border-radius: 50%;
+
+}
+.side-tick1{
+    position:absolute;
+    left: 550px;
+    top: 400px;
+
+    height: 25px;
+    width: 35px;
+
+
+
+}
+.side-tick2{
+    position:absolute;
+    left: 550px;
+    top: 470px;
+
+    height: 25px;
+    width: 35px;
+
+
+}
+.side-tick3{
+    position:absolute;
+    left: 550px;
+    top: 540px;
+
+    height: 25px;
+    width: 35px;
+
+
+}
+
+.step-label{
+    position: absolute;
+    left: 670px;
+    top: 310px;
+
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.plan-label{
+    position: absolute;
+    top: 330px;
+    left: 580px;
+
+    font-size: 35px;
+    font-weight: 545;
+
+}
+
+.line-1{
+    position: absolute;
+    left: 600px;
+    top: 380px;
+
+    font-size: 18px;
+
+    word-spacing: 3px;
+
+    font-weight: 200;
+
+}
+
+.line-2{
+    position: absolute;
+    left: 600px;
+    top: 450px;
+
+    font-size: 18px;
+
+    word-spacing: 3px;
+
+    font-weight: 200;
+
+}
+
+.line-3{
+    position: absolute;
+    left: 600px;
+    top: 520px;
+
+    font-size: 18px;
+
+    word-spacing: 3px;
+
+    font-weight: 200;
+
+}
+
+.next-btn{
+    position: absolute;
+    top: 610px;
+    left: 550px;
+
+    height: 60px;
+    width: 350px;
+
+    cursor: pointer;
+
+    text-align: center;
+    font-size: 20px;
+    color: white;
+
+    background-color: rgb(229, 9, 20);
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.next-btn:hover{
+    background-color: red;
+}
